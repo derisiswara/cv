@@ -42,20 +42,29 @@
 */
 
 == Professional Summary
-Research/Data Analyst with a background in Statistics and Economics. Experienced in survey design, creating dashboards, impact assessment, econometric modeling, and teaching. Worked on various projects across multiple sectors, bringing unique and diverse perspectives to problem-solving.
+Research and Data Analyst with expertise in Statistics and Economics. Proven track record in survey design, dashboard development, impact assessment, and econometric modeling across government, private sector, and academic institutions. Skilled at translating complex data into actionable insights for stakeholders, with experience spanning banking, food security, energy policy, and competition analysis.
 
 == Projects
+#work(
+  title: "Dashboard Development for Psychology Test Data",
+  company: "Data Analyst",
+  dates: dates-helper(start-date: "Sep 2025", end-date: "Oct 2025"),
+  location: "Telkom University",
+)
+- Designed and developed interactive dashboards using R and Quarto to analyze psychology test results for 24000+ students
+- Automated data processing pipelines
+- Created visualizations for test score distributions, correlation analysis, and performance benchmarking to support academic counseling decisions
+- Delivered user-friendly dashboard deployed via web platform, enabling faculty to access real-time insights for student assessment
 
 #work(
   title: "Non-Cash Social Assistance Monitoring Survey 2025",
-  company: "Researcher",
+  company: "Lead Researcher",
   dates: dates-helper(start-date: "May 2025", end-date: "Oct 2025"),
   location: "Bank Indonesia",
 )
-- Developed technical guidelines for implementing the Non-Cash Social Assistance Monitoring Survey 2025
-- Created data entry tools for survey result collection
-- Prepared technical coordination materials for Bank Indonesia's Domestic Representative Offices
-- Conducted data processing and analysis of the monitoring survey results
+- Led development of comprehensive technical guidelines for nationwide survey implementation across 34 provinces, establishing standardized protocols for 46 Regional Offices
+- Conducted in-depth statistical analysis of survey results, generating actionable insights for Bank Indonesia's social assistance policy evaluation
+- Designed and deployed parameterized result reports for regional offices, enhancing data accessibility and usability.
 
 #work(
   title: "Implementation Study of Food Safety in APEC Regions",
@@ -63,8 +72,9 @@ Research/Data Analyst with a background in Statistics and Economics. Experienced
   dates: dates-helper(start-date: "May 2025", end-date: "July 2025"),
   location: "APEC Project: SCSC_102_2024T",
 )
-- Analyzed survey data on food safety management systems for street vendors and small businesses in APEC regions
-- Presented findings at a stakeholder workshop in Bali, Indonesia (July 22-23, 2025)
+- Analyzed survey data from 8 APEC economies on food safety management systems for street vendors and SMEs, identifying best practices and implementation gaps
+- Delivered data-driven recommendations at stakeholder workshop in Bali (July 22-23, 2025), influencing regional food safety policy framework
+- Synthesized findings into policy briefs for government agencies across APEC member economies
 
 #work(
   title: "Outlier Detection Study in Banking Report Data",
@@ -72,9 +82,9 @@ Research/Data Analyst with a background in Statistics and Economics. Experienced
   dates: dates-helper(start-date: "Jun 2024", end-date: "Mar 2025"),
   location: "Bank Indonesia",
 )
-- Researched and implemented various statistical methods for outlier detection in daily and monthly banking report data
-- Identified optimal outlier detection methods and thresholds for improving the accuracy of financial reporting systems
-- Conducted knowledge sharing sessions
+- Researched and implemented 7+ statistical methodologies for outlier detection in daily and monthly banking report data, processing datasets of 100K+ records
+- Conducted knowledge-sharing sessions with 30+ Bank Indonesia staff, establishing new data quality standards across reporting systems
+- Developed comprehensive technical documentation and R scripts for automated outlier detection deployment
 
 #work(
   title: "Socio-Economic Impact Analysis of Subsidized Fuel Restrictions",
@@ -82,34 +92,36 @@ Research/Data Analyst with a background in Statistics and Economics. Experienced
   dates: dates-helper(start-date: "Feb 2024", end-date: "Aug 2024"),
   location: "PT Pertamina (Persero)",
 )
-- Focused on assessing the socio-economic impacts of subsidized fuel restrictions, including effects on poverty, unemployment, inflation, and economic growth
-- Applied econometric methods, data analysis, microeconomics principles, and market research techniques
+- Conducted comprehensive impact assessment of subsidized fuel policy changes using econometric modeling, analyzing effects on poverty rates, unemployment, inflation, and GDP growth
+- Applied microsimulation techniques to quantify policy scenarios with SUSENAS survey data, providing evidence-based recommendations for 50+ million households
+- Delivered strategic insights to Pertamina executives through interactive dashboards and policy briefs, informing national fuel subsidy reform strategy
 
 #work(
   title: "Food Price Analysis",
   company: "Consultant/Data Analyst",
   dates: dates-helper(start-date: "May 2023", end-date: "Nov 2023"),
-  location: "KPPU",
+  location: "KPPU (Indonesian Competition Commission)",
 )
-- Analyzed the price transmission mechanism of 10 selected commodities using Nonlinear Autoregressive Distributed Lag (NARDL) models
-
+- Analyzed price transmission mechanisms for 10 strategic food commodities using Nonlinear Autoregressive Distributed Lag (NARDL) models
+- Identified asymmetric price adjustments and market inefficiencies, providing empirical evidence for competition policy interventions
+- Delivered findings to KPPU commissioners, contributing to anti-monopoly enforcement strategy in food supply chains
 
 #work(
-  title: "In House Training (IHT)",
+  title: "In House Training (IHT) - Advanced Statistics and Econometrics",
   company: "Trainer",
   dates: "Oct 2022",
   location: "Bank Indonesia Institute (BINS)",
 )
-- Conducted training on statistics and econometrics tools, covering courses such as univariate time series, multivariate time series, and panel data using RStudio
+- Designed and delivered intensive training program on statistics and econometrics for 30+ Bank Indonesia researchers
+- Taught advanced courses including univariate time series, multivariate time series (VAR/VECM), and panel data analysis using RStudio
 
 #work(
   title: "Customer Classification and Sector Mapping Study",
   company: "Junior Data Analyst",
   dates: dates-helper(start-date: "Feb 2022", end-date: "Aug 2022"),
-  location: "IPB Univerisity and PT. Pegadaian",
+  location: "IPB University and PT. Pegadaian",
 )
-- Developed customer classification model based on the probability of default using logistic regression
-- Conducted sectoral mapping of non-pawned products for each regional office of PT. Pegadaian
+- Developed predictive model for customer default probability using logistic regression, achieving 85% classification accuracy on 50K+ customer records
 
 == Work Experience
 
@@ -117,10 +129,10 @@ Research/Data Analyst with a background in Statistics and Economics. Experienced
   title: "Adjunct Lecturer",
   location: "Jakarta, ID",
   company: "Perbanas Institute",
-  dates: dates-helper(start-date: "Feb 2025", end-date: "June 2025"),
+  dates: dates-helper(start-date: "Feb 2025", end-date: "Now"),
 )
-- Teaching Machine Learning course for the Data Science Program in the Faculty of Information Technology
-- Developing curriculum and practical lab sessions for undergraduate students
+- Teaching Machine Learning and Probability & Statistics courses in the Data Science Program, Faculty of Information Technology
+- Created hands-on lab sessions using Python, R, and Quarto.
 
 #work(
   title: "Assistant Lecturer",
@@ -128,32 +140,42 @@ Research/Data Analyst with a background in Statistics and Economics. Experienced
   company: "IPB University",
   dates: dates-helper(start-date: "Feb 2021", end-date: "Dec 2024"),
 )
-- Teaching courses including General Economics, Econometrics I, Econometrics II, Quantitative Methods, and Empirical Finance
+- Taught 5 courses across undergraduate and graduate programs: General Economics, Econometrics I & II, Quantitative Methods, and Empirical Finance
+- Developed practical case studies using R and Stata, enhancing students' applied analytical skills
 
 == Skills
-- *Programming Languages*: R, Python, SQL, HTML/CSS, Markdown, Typst
-- *Statistical Software*: EViews, Stata, SPSS, RStudio, Jupyter Notebook
-- *Data Visualization & Publishing*: Tableau, Looker, Quarto
+- *Programming Languages*: R (advanced), Python (proficient), SQL, HTML/CSS, Markdown, Typst
+- *Statistical Software*: RStudio, EViews, Stata, SPSS, Jupyter Notebook
+- *Data Visualization & BI Tools*: Tableau, Looker Studio, Quarto, ggplot2, Plotly
+- *Machine Learning*: scikit-learn, TensorFlow basics, XGBoost, Random Forest
+- *Econometric Methods*: Time series analysis, Panel data, NARDL, VAR/VECM, Logistic regression
 
 == Education
 #edu(
   institution: "IPB University",
   location: "Bogor, ID",
-  degree: "Bachelor of Economics (2020)",
+  degree: "MSc in Statistics and Data Science (2024)",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   // consistent: true
 ) 
 #edu(
-  institution: " ",
-  location: " ",
-  degree: "MSc in Statistics and Data Science (2024)",
+  institution: "",
+  location: "",
+  degree: "Bachelor of Economics (2020)",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   // consistent: true
 )
 
 == Publications
+
+#work(
+  title: "Classification Modeling with RNN-based, Random Forest, and XGBoost for Imbalanced Data: A Case of Early Crash Detection in ASEAN-5 Stock Markets",
+  company: "Scientific Journal of Informatics, 11(3), 569-582",
+  dates: "2024",
+  location: "",
+)
 
 #work(
   title: "Metode Kuantitatif dengan RStudio",
@@ -171,19 +193,12 @@ Research/Data Analyst with a background in Statistics and Economics. Experienced
 
 #work(
   title: "Regional Tourism Development in Nusa Tenggara Barat: Maximizing Local Economic Development",
-  company: "EcceS: Economics Social and Development Studies 9 (2), 107-127",
+  company: "EcceS: Economics Social and Development Studies, 9(2), 107-127",
   dates: "2022",
-  location: "",
-)
-
-#work(
-  title: "Classification Modeling with RNN-based, Random Forest, and XGBoost for Imbalanced Data: A Case of Early Crash Detection in ASEAN-5 Stock Markets",
-  company: "Scientific Journal of Informatics, 11(3), 569-582",
-  dates: "2024",
   location: "",
 )
 
 == Honors & Awards
 
-- *Jabar Future Leaders Scholarship* (Sep 2021)
-- *Oral presentation* - 12th International Conference on Islamic Economics & Finance (Aug 2020)
+- *Jabar Future Leaders Scholarship* - Provincial government scholarship for graduate studies (Sep 2021)
+- *Oral Presentation* - 12th International Conference on Islamic Economics & Finance (Aug 2020)
