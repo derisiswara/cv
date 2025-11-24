@@ -8,17 +8,17 @@
   contacts: (
     (text: [Bogor, ID]),
     (text: [+62 813-8454-8488], link: "tel:+6281384548488"),
-    (text: [#fa-icon("link") derisiswara.org], link: "https://derisiswara.org"),
-    (text: [#fa-icon("linkedin") linkedin.com/in/derisiswara], link: "https://linkedin.com/in/derisiswara"),
-    (text: [#fa-icon("envelope") derisiswarads\@gmail.com], link: "mailto:derisiswarads@gmail.com"),
+    (text: [derisiswara.art], link: "https://derisiswara.art"),
+    (text: [linkedin.com/in/derisiswara], link: "https://linkedin.com/in/derisiswara"),
+    (text: [derisiswarads\@gmail.com], link: "mailto:derisiswarads@gmail.com"),
   ),
   recipient: (
-    start-title: [Dear Hiring Manager,],
-    cl-title: [Associate Position],
-    date: [July 2, 2025],
-    department: [Recruitment Team],
-    institution: [IDinsight],
-    address: [Jakarta Office],
+    start-title: [Kepada Yth.,],
+    cl-title: [Asisten Peneliti Regional Green Development in East Kalimantan],
+    date: [22 Oktober 2025],
+    department: [Tim Rekrutmen],
+    institution: [SMERU Research Institute],
+    address: [],
     postcode: [],
   ),
 )
@@ -26,25 +26,20 @@
 #set par(justify: true, first-line-indent: 2em)
 #set text(weight: "regular", size: 12pt)
 
-I am writing to express my interest in the Associate role at IDinsight in Jakarta. With my background in Statistics and Economics and experience as a Research/Data Analyst across Indonesian sectors, I am well-positioned to contribute to IDinsight's mission of using evidence to improve lives at scale.
+Dengan hormat,
 
-Throughout my work with Bank Indonesia, APEC, PT Pertamina, and KPPU, I have:
-- Designed surveys and data collection methodologies
-- Applied statistical modeling to solve complex problems
-- Created dashboards to communicate findings effectively
-- Conducted impact assessments for policy decisions
+Melalui email ini, saya mengajukan lamaran untuk posisi "Asisten Peneliti Regional Green Development in East Kalimantan" di SMERU Research Institute.
 
-Most recently, I developed the Non-Cash Social Assistance Monitoring Survey for Bank Indonesia—experience directly relevant to IDinsight's work in social protection programs. My implementation study on food safety across APEC regions demonstrates my ability to translate data into actionable recommendations for diverse stakeholders.
+Saya adalah seorang dengan latar belakang Ekonomi dan Statistika dari IPB University. Saya memiliki pengalaman dalam survey design, econometric modeling, dan data visualization di sektor pemerintah, swasta, dan akademik.
 
-My technical skills include programming (R, Python, SQL), statistical analysis (EViews, Stata, SPSS), and data visualization (Tableau, Looker). As an Adjunct Lecturer at Perbanas Institute and Assistant at IPB University, I've developed strong communication skills for explaining complex concepts.
+Pengalaman saya yang relevan dengan posisi ini meliputi:
+- Analisis Dampak Ekonomi dan Sosial Pembangunan Jalur Kereta Api Kalimantan Timur untuk Bank Indonesia 
+- Merancang dan mengimplementasikan Non-Cash Social Assistance Monitoring Survey skala nasional untuk Bank Indonesia
+- Analisis dampak sosio-ekonomi kebijakan subsidi BBM menggunakan data SUSENAS untuk PT Pertamina
+- Mengajar Machine Learning dan Probability & Statistics di Perbanas Institute
 
-I'm drawn to IDinsight's commitment to evidence-informed decision-making and direct impact on disadvantaged populations. Your approach of embedding within agencies to build data-driven systems aligns with my experience across multiple Indonesian sectors.
+Keterampilan teknis saya meliputi R (advanced), Python, Stata, SQL, dan tools visualisasi data seperti Quarto, Tableau, dan ggplot2. Pengalaman saya dalam econometric methods mencakup time series analysis, panel data, NARDL, dan VAR/VECM.
 
-My qualifications directly match your requirements:
-- Strong analytical skills demonstrated through outlier detection work for Bank Indonesia and NARDL modeling for KPPU
-- Teaching experience that enables me to translate technical concepts into accessible formats
-- Experience designing data collection systems for government surveys and impact assessments
-- Proficiency in required software: R, Python, Stata, and SPSS
-- Native Indonesian speaker with deep understanding of the local context
+Saya sangat tertarik untuk berkontribusi dalam penelitian green development di Kalimantan Timur dan siap untuk berdiskusi lebih lanjut mengenai kualifikasi saya.
 
-I welcome the opportunity to discuss how my background aligns with IDinsight's mission and Jakarta team needs. I'm excited to apply my skills to support evidence-based policymaking in Indonesia. Thank you for considering my application.
+Terima kasih atas perhatian dan pertimbangannya.

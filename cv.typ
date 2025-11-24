@@ -42,9 +42,21 @@
 */
 
 == Professional Summary
-Research and Data Analyst with expertise in Statistics and Economics. Proven track record in survey design, dashboard development, impact assessment, and econometric modeling across government, private sector, and academic institutions. Skilled at translating complex data into actionable insights for stakeholders, with experience spanning banking, food security, energy policy, and competition analysis.
+Economist who codes. Specialized in survey design, econometric modeling, and data visualization. Experience across government, private sector, and academia.
 
 == Projects
+
+#work(
+  title: "Economic and Social Impact Analysis of East Kalimantan Railway Development",
+  company: "Data Analyst/Report Writer",
+  dates: dates-helper(start-date: "Aug 2025", end-date: "Oct 2025"),
+  location: "Bank Indonesia - East Kalimantan Regional Office",
+)
+- Conducted comprehensive economic and social impact assessment of railway development phases based on East Kalimantan Railway Master Plan 2023
+- Applied Working-Leser model and regression analysis to evaluate regional economic transformation potential and long-term development prospects
+- Performed SWOT analysis to formulate alternative priority development scenarios, considering energy transition impacts and trade partner economic shifts
+- Delivered analytical reports informing infrastructure investment strategy for East Kalimantan and broader Kalimantan regional development
+
 #work(
   title: "Dashboard Development for Psychology Test Data",
   company: "Data Analyst",
