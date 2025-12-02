@@ -1,0 +1,131 @@
+---
+title: Untitled
+format:
+  modern2-cv-pdf: default
+author: Deri Siswara
+cvfont: comfortaa #texlive fonts like raleway,fetamont,gillius,comfortaa
+cvcolor: 
+  main: "000000"
+  accent: "000000"
+jobtitle: Lecturer | Researcher
+sidebar:
+  image: portrait.jpg
+  sections: 
+    - name: Contact
+      items:
+        - icon: map-marker
+          text: Bogor, Indonesia
+        - icon: phone
+          text: "+62 813-8454-8488"
+        - icon: envelope
+          text: derisiswarads@gmail.com
+        - icon: globe
+          text: derisiswara.art
+          href: https://derisiswara.art
+        - icon: linkedin
+          text: linkedin.com/in/derisiswara
+          href: https://linkedin.com/in/derisiswara
+    - name: Education
+      items:
+        - text: "M.Sc. in Statistics and Data Science"
+          inst: "IPB University"
+          time: "09/2021 - 08/2024"
+          details: "Thesis: Stock Market Early Warning using Deep Learning"
+        - text: "B.Econ. in Islamic Economics"
+          inst: "IPB University"
+          time: "09/2016 - 08/2020"
+          details: "Thesis: Stock Market Integration using ARDL Approach"
+execute: 
+  echo: false
+---
+
+```{r}
+#| label: cvevents
+cvevents <- function(tbl, when, what, where, descr) {
+
+    command_start <- "\\cvevent"
+    tbl[[where]] <- gsub("\n", " \\\\newline ", tbl[[where]])
+    res <- paste0(
+        command_start, "{", tbl[[when]], "}", 
+        "{", tbl[[what]], "}",
+        "{", tbl[[where]], "}",
+        "{", tbl[[descr]], "}"
+        )
+
+    cat(res, sep = "\n\n\n")
+}
+
+cvproj <- function(tbl,what,role,items){
+    command_start <- "\\cvproj"
+    res <- paste0(
+        command_start, "{", tbl[[what]], "}",
+        "{", tbl[[role]], "}",
+        "{", sapply(tbl[[items]], function(x)paste0(x,collapse = ", ")), "}"
+    )
+
+    cat(res, sep = "\n\n\n")
+}
+```
+
+# Summary
+
+Lecturer and researcher in economics and data science. Trained in economics with heavy use of various types of econometric and statistical models for policy-oriented research. Have a long exposure with Stata, R, and Python for data analytics, econometrics, and machine learning.  Good familiarity with various data & docs processing tools (Microsoft Office, Google Docs, Markdown, and Quarto).
+
+# Work Experience
+
+```{r}
+#| label: experience
+#| output: asis
+tibble::tribble(
+    ~role, ~institution, ~dates, ~details,
+    "Adjunct Lecturer", "Perbanas Institute\nData Science Program, Faculty of Information Technology", "Feb 2025 - Present", "Teaching Machine Learning and Probability \\& Statistics courses. Created hands-on lab sessions using Python, R, and Quarto.",
+    "Researcher", "International Trade Analysis and Policy Studies (ITAPS) FEM-IPB University", "Sep 2020 - Present", "Conducted policy-oriented research on agricultural economics, regional development, and international trade",
+    "Assistant Lecturer", "IPB University", "Feb 2021 - Dec 2024", "Taught 5 courses across undergraduate and graduate programs: General Economics, Econometrics I \\& II, and Statistics. Developed practical case studies using R, Stata, and EViews.",
+) |>
+    cvevents(when = "dates", what = "role", where = "institution", descr = "details")
+```
+
+# Selected Projects
+
+```{r}
+#| label: proj
+#| output: asis
+tibble::tribble(
+    ~role, ~institution, ~dates, ~details,
+    "Utilization Study of Trade Agreement Impact on Trade in Services", "ITAPS - Ministry of Trade\nResearcher", "Aug 2025 - Dec 2025", "Conducted counterfactual analysis using synthetic control method to evaluate the impact of IA-CEPA on Indonesia's trade in services.",
+    "Economic and Social Impact Analysis of East Kalimantan Railway Development", "ITAPS - Bank Indonesia, East Kalimantan Regional\nResearcher", "Aug 2025 - Nov 2025", "Applied Working-Leser model, time series regression, and SWOT analysis to assess market potential and expert judgments for railway development.",
+    "Dashboard Development for Psychology Test Data", "Telkom University\nData Analyst", "Sep 2025 - Oct 2025", "Designed and developed interactive dashboards using R and Quarto to analyze psychology test results for 24000+ students.",
+    "Non-Cash Social Assistance Monitoring Survey", "Bank Indonesia\nResearcher", "May 2025 - Oct 2025", "Developed questionnaire and technical guidelines for nationwide survey implementation across 34 provinces or 46 BI Regional. Used Quarto and GitHub for web-based technical guidelines and R for data analysis.",
+    "Implementation Study of Food Safety in APEC Regions", "APEC Project: SCSC\\_102\\_2024T\nConsultant/Data Analyst", "May 2025 - Jul 2025", "Analyzed survey data from 8 APEC economies on food safety management systems. Delivered data-driven recommendations at stakeholder workshop in Bali.",
+    "Outlier Detection Study in Banking Report Data", "Bank Indonesia\nConsultant/Data Analyst", "Jun 2024 - Mar 2025", "Researched and implemented 7+ statistical methodologies for outlier detection in banking report data, processing datasets of 100K+ records.",
+    "Socio-Economic Impact Analysis of Subsidized Fuel Restrictions", "PT Pertamina (Persero)\nConsultant/Data Analyst", "Feb 2024 - Aug 2024", "Conducted impact assessment of subsidized fuel policy changes using microsimulation with SUSENAS survey data.",
+    "Food Price Analysis", "KPPU (Indonesian Competition Commission)\nResearcher", "May 2023 - Nov 2023", "Analyzed price transmission mechanisms for 10 strategic food commodities using Nonlinear Autoregressive Distributed Lag (NARDL) models."
+) |>
+    cvevents(when = "dates", what = "role", where = "institution", descr = "details")
+```
+
+# Publications
+
+```{r}
+#| label: publications
+#| output: asis
+```
+
+**Journal Articles**
+
+-Siswara, D., Soleh, A. M., & Wigena, A. H. (2024). Classification Modeling with RNN-based, Random Forest, and XGBoost for Imbalanced Data: A Case of Early Crash Detection in ASEAN-5 Stock Markets. *Scientific Journal of Informatics*, 11(3), 569–582. <https://doi.org/10.15294/sji.v11i3.4067>
+
+-Siswara, D., Effendi, J., & Muthoharroh, M. (2021). The Integration of Islamic Stock Markets of OIC Countries in China Stock Market Crisis and US-China Trade War. *Al-Iqtishad: Jurnal Ilmu Ekonomi Syariah*, 13(1), 1–16. <https://doi.org/10.15408/aiq.v13i1.20820>
+
+-Siswara, D., Siahaan, D. R. N., Fitrianto, A., Sartono, B., & Oktarina, S. D. (2022). Regional Tourism Development in Nusa Tenggara Barat: Maximizing Local Economic Development. *EcceS (Economics, Social, and Development Studies)*, 9(2), 107–127. <https://doi.org/10.24252/ecc.v9i2.32194>
+
+<br>
+
+**Books**
+
+-Firdaus, M., Irawan, T., Ahmad, F. S., Siregar, H., Siswara, D., & Jakariya, R. (2024). *Aplikasi Model Ekonometrika dengan RStudio Edisi Kedua*. IPB Press.
+
+-Firdaus, M., Afendi, F., Siswara, D., & Pratiwi, N. B. I. (2024). *Metode Kuantitatif dengan RStudio*. IPB Press.
+
+-Firdaus, M., Irawan, T., Ahmad, F. S., Siregar, H., Siswara, D., & Jakariya, R. (2020). *Aplikasi Model Ekonometrika dengan RStudio (Model Time-Series, Panel, Spatial)*. IPB Press.
+

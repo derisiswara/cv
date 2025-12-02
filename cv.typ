@@ -144,7 +144,7 @@ Economist who codes. Specialized in survey design, econometric modeling, and dat
   dates: dates-helper(start-date: "Feb 2025", end-date: "Now"),
 )
 - Teaching Machine Learning and Probability & Statistics courses in the Data Science Program, Faculty of Information Technology
-- Created hands-on lab sessions using Python, R, and Quarto.
+- Created hands-on lab sessions using Python, R, and Quarto. [Teaching portfolio](https://derisiswara.art/talks/)
 
 #work(
   title: "Assistant Lecturer",
@@ -157,27 +157,22 @@ Economist who codes. Specialized in survey design, econometric modeling, and dat
 
 == Skills
 - *Programming Languages*: R (advanced), Python (proficient), SQL, HTML/CSS, Markdown, Typst
-- *Statistical Software*: RStudio, EViews, Stata, SPSS, Jupyter Notebook
-- *Data Visualization & BI Tools*: Tableau, Looker Studio, Quarto, ggplot2, Plotly
+- *Statistical Software*: Positron, RStudio, EViews, Stata, SPSS, Jupyter Notebook
+- *Data Visualization & Publication Tools*: Quarto, ggplot2, Plotly, GitHub
 - *Machine Learning*: scikit-learn, TensorFlow basics, XGBoost, Random Forest
-- *Econometric Methods*: Time series analysis, Panel data, NARDL, VAR/VECM, Logistic regression
+- *Econometric Methods*: Time series analysis, panel data, NARDL, VAR/VECM, logistic regression
 
 == Education
 #edu(
   institution: "IPB University",
   location: "Bogor, ID",
-  degree: "MSc in Statistics and Data Science (2024)",
+  degree: "M.Sc. in Statistics and Data Science (2024)",
+)
 
-  // Uncomment the line below if you want edu formatting to be consistent with everything else
-  // consistent: true
-) 
 #edu(
-  institution: "",
-  location: "",
-  degree: "Bachelor of Economics (2020)",
-
-  // Uncomment the line below if you want edu formatting to be consistent with everything else
-  // consistent: true
+  institution: "IPB University",
+  location: "Bogor, ID",
+  degree: "B.Econ. in Economics (2020)",
 )
 
 == Publications
