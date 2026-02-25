@@ -78,9 +78,9 @@ Lecturer and researcher in economics and data science. Trained in economics with
 #| output: asis
 tibble::tribble(
     ~role, ~institution, ~dates, ~details,
+    "Data Research Analyst", "Bank Indonesia (Central Bank of Indonesia)", "Feb 2026 - Present", "Conducted regional economic analysis and policy research to support Bank Indonesia's decision-making on subnational economic issues.",
     "Adjunct Lecturer", "Perbanas Institute\nData Science Program, Faculty of Information Technology", "Feb 2025 - Present", "Teaching Machine Learning and Probability \\& Statistics courses. Created hands-on lab sessions using Python, R, and Quarto.",
-    "Researcher", "International Trade Analysis and Policy Studies (ITAPS) FEM-IPB University", "Sep 2020 - Present", "Conducted policy-oriented research on agricultural economics, regional development, and international trade",
-    "Assistant Lecturer", "IPB University", "Feb 2021 - Dec 2024", "Taught 5 courses across undergraduate and graduate programs: General Economics, Econometrics I \\& II, and Statistics. Developed practical case studies using R, Stata, and EViews.",
+    "Researcher \\& Lecturer (Short-term Contracts)", "IPB University, KPPU, Kemendag, Kementan, Bank Indonesia, and others", "2020 - 2025", "Conducted policy-oriented research and teaching across multiple institutions covering agricultural economics, regional development, international trade, and competition policy.",
 ) |>
     cvevents(when = "dates", what = "role", where = "institution", descr = "details")
 ```

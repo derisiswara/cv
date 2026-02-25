@@ -1,5 +1,11 @@
 {
   "index.qmd": {
     "index.html": "34a9b35b"
+  },
+  "template-cover-letter.qmd": {
+    "template-cover-letter.tex": "2a76cc65"
+  },
+  "template.qmd": {
+    "template.tex": "dc41abf4"
   }
 }
